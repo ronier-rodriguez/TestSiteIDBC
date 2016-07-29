@@ -20,11 +20,11 @@
 	<header class="jumbotron">
 		<div class="container-fluid">
 			<div class="row row-header">
-				<div class="col-xs-12 col-sm-4 col-sm-push-8">
-					<p align="right">aqui va algo</p>
+				<div class="col-xs-12 col-sm-3 col-sm-offset-1 col-sm-push-8 col-lg-2 col-lg-offset-2">
+					<input type="text" class="form-control" id="top-search" name="name" placeholder="Search for tweets">
 				</div>
 				<div class="col-xs-12 col-sm-4 col-sm-offset-4 col-sm-pull-4">
-					<img src="img/headerTrans.png" class="img-responsive logo" alt="logo header">
+					<img onclick="likeHome()" src="img/headerTrans.png" class="img-responsive logo" alt="logo header">
 				</div>
 			</div>
 		</div>
@@ -32,7 +32,7 @@
 	</header>
 	
 	
-	<div class="container-fluid container-info">
+	<div id="myinfo" class="container-fluid container-info">
 		<!-- Informacion personal -->
 		<div class="row row-info">
 			<div class="col-xs-12 col-sm-6 col-sm-offset-3">
@@ -154,7 +154,7 @@
 	</div>
 	
 	<!-- Twitter Search timeline -->
-	<div class="container-fluid container-info">
+	<div id="mytimeline" class="container-fluid container-info">
 		<div class="row row-timeline">
 			<div class="col-xs-12">
 				<h4 align=center>Search Results</h4>

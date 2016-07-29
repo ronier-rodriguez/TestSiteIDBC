@@ -4,6 +4,18 @@
 
 /* Realizado por Ronier Rodríguez */
 
+function likeHome(){
+    $('#myinfo').show();
+	$('#mytimeline').hide();
+}
+
+$("#top-search").keyup(function (e) {
+    if (e.keyCode == 13){
+		$('#mytimeline').show();
+		$('#myinfo').hide();
+    }
+});
+
 //elimino la navegacion automatica de imagenes en el slideshow
 $('.carousel').carousel({
     interval: false

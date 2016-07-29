@@ -17,6 +17,7 @@
     margin: 0 auto;
 	min-height:220px;
 	max-height:280px;
+	cursor: pointer;
 }
 
 .container-info {
@@ -94,6 +95,17 @@ hr {
 	margin:0px auto;
 	padding: 0px 0px 10px 0px;
 	color:white;
+}
+
+#top-search{
+	background-image: url('../img/lupa-icon.png');
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	border-radius: 15px;
+}
+
+#mytimeline{
+	display: none;
 }
 
 .input-contacto {
