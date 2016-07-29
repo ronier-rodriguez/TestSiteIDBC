@@ -1,0 +1,137 @@
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.jumbotron {
+    padding:10px 30px 0px 40px;
+    margin:0px auto;
+    background: #FA5843;
+	min-width:500px;
+	min-height:260px;
+	max-height:330px;
+	color:white;
+}
+
+.img-responsive.logo{
+    margin: 0 auto;
+	min-height:220px;
+	max-height:280px;
+}
+
+.container-info {
+	background-color: #112524;
+	min-width:500px;
+    margin:0px auto;
+}
+
+.row-info {
+    margin:0px auto;
+    padding: 10px 20px 0px 10px;
+	color:white;
+}
+
+.row-skills {
+    margin:0px auto;
+    padding: 10px 0px 0px 0px;
+	color:white;
+}
+
+.row-leyenda {
+    margin:0px auto;
+    padding: 0px 0px 10px 0px;
+	color:white;
+}
+
+.row-slide {
+    margin:0px auto;
+    padding: 60px 40px 50px 50px;
+	color:white;
+	min-width:400px;
+	max-width:1200px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel-indicators li {
+	background-color: black;
+}
+
+.carousel-indicators .active {
+	background-color: #FA5843;
+}
+
+.row-footer{
+    background-color: #112524;
+	min-width:500px;
+    margin:0px auto;
+    padding: 20px 0px 20px 20px;
+	color:white;
+	font-size:90%;
+}
+
+hr {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.container-contact {
+	padding: 10px 30px 10px 50px;
+	background: #FA5843;
+	min-width:500px;
+	min-height:200px;
+	color:white;
+}
+
+.row-contact {
+	margin:0px auto;
+	max-width:1100px;
+}
+
+.row-timeline{
+	margin:0px auto;
+	padding: 0px 0px 10px 0px;
+	color:white;
+}
+
+.input-contacto {
+	padding: 15px 15px 0px 40px;
+}
+
+.input-message {
+	padding: 15px 50px 0px 0px;
+}
+
+.submit-form {
+	border-radius: 0 !important;
+	color: black;
+}
+
+.footer-img{
+	margin:0px auto;
+    display: inline;
+}
+
+.footer-text{
+	padding: 15px 0px 15px 0px;
+}
+
+.c100.ronier-color .bar,
+.c100.ronier-color .fill {
+  border-color: #FA5843 !important;
+}
+.c100.ronier-color:hover > span {
+  color: #FA5843;
+}
+.c100.ronier-color.dark .bar,
+.c100.ronier-color.dark .fill {
+  border-color: #FA5843 !important;
+}
+.c100.ronier-color.dark:hover > span {
+  color: #FA5843;
+}
+
+
+
